@@ -1,0 +1,67 @@
+
+
+body {
+  background-image: url("../img/background-repeat.jpg");
+  font-family: monospace;
+}
+
+hr {
+  margin-top: 80px;
+  width: 1300px;
+  border-color: gray;
+  border-width: 1px;
+  border-style: solid;
+}
+
+
+/* Header */
+
+.header {
+  height: 150px;
+}
+
+.header nav {
+  position: fixed;
+}
+
+.header hr {
+  position:absolute;
+  width: 2px;
+  height: 5px;
+  color: white;
+}
+
+.header p {
+  margin-top: 10px;
+}
+
+.header .container-fluid {
+  background-color: black;
+}
+
+.header .container-fluid ul {
+  background-color: black;
+  height: 60px;
+}
+
+.header li {
+  font-size: 26px;
+  margin-top: 5px;
+  margin-left: 12px;
+}
+
+
+/* Filler1 */
+
+.filler1 .jumbotron {
+  background-image: url("../img/background-jumbotron.jpg");
+  background-size: cover;
+  background-repeat: none;
+  border-style: solid;
+  border-color: black;
+  border-width: 6px;
+  height: 600px;
+}
+
+
+/* Filler2 */
