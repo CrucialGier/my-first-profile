@@ -13,6 +13,11 @@ hr {
   border-style: solid;
 }
 
+#complicated {
+  color: yellow;
+  text-shadow: 2px 3px black;
+}
+
 
 /* Header */
 
@@ -65,3 +70,39 @@ hr {
 
 
 /* Filler2 */
+
+.filler2 {
+  color: gray;
+  text-shadow: 0 1px white;
+}
+
+.filler2 .container {
+  margin-top: 100px;
+}
+
+.filler2 h2 {
+  text-decoration: underline;
+}
+
+.filler2 li {
+  font-size: 20px;
+}
+
+.filler2 img {
+  border-style: solid;
+  border-color: black;
+  border-width: 3px;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.showcase {
+  position: relative;
+    display: inline;
+}
+
+.showcase div img {
+  margin-right: 40px;
+  max-width: 28%;
+  float: left;
+}
