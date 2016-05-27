@@ -1,23 +1,5 @@
 
 
-body {
-  background-image: url("../img/background-repeat.jpg");
-  font-family: monospace;
-}
-
-hr {
-  margin-top: 80px;
-  width: 1300px;
-  border-color: gray;
-  border-width: 1px;
-  border-style: solid;
-}
-
-#complicated {
-  color: yellow;
-  text-shadow: 2px 3px black;
-}
-
 
 /* Header */
 
@@ -80,8 +62,13 @@ hr {
   margin-top: 100px;
 }
 
-.filler2 h2 {
+.filler2 h2, {
   text-decoration: underline;
+}
+
+.filler2 h3 {
+  text-decoration: underline;
+  margin-top: 30px;
 }
 
 .filler2 li {
@@ -96,13 +83,62 @@ hr {
   width: 100%;
 }
 
-.showcase {
-  position: relative;
-    display: inline;
+.filler2 p {
+  margin-top: 20px;
+  font-size: 16px;
 }
 
-.showcase div img {
-  margin-right: 40px;
-  max-width: 28%;
-  float: left;
+
+/* Footer */
+
+.footer {
+  background-color: black;
+}
+
+.footer .container {
+  height: 100px;
+}
+
+.footer img {
+  width: 50px;
+  margin-left: 130px;
+}
+
+.footer div {
+  margin-top: 17px;
+}
+
+.footer .copy {
+  margin-top: 15px;
+}
+
+.footer a {
+  color: white;
+  text-shadow: none;
+  font-size: 20px;
+}
+
+
+/* Extras */
+
+body {
+  background-image: url("../img/background-repeat.jpg");
+  font-family: monospace;
+}
+
+hr {
+  margin-top: 80px;
+  width: 1300px;
+  border-color: gray;
+  border-width: 1px;
+  border-style: solid;
+}
+
+#complicated, em {
+  color: yellow;
+  text-shadow: 2px 3px black;
+}
+
+a em:hover {
+  color: white;
 }
