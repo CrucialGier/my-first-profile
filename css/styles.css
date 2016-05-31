@@ -7,12 +7,32 @@
   height: 150px;
 }
 
+.header .btn:first-child {
+  font-size: 24px;
+  color: black;
+  background-color: white;
+  position: fixed;
+}
+
+.header .btn:nth-child(2) {
+  display: none;
+  font-size: 24px;
+  color: white;
+  background-color: black;
+  position: fixed;
+}
+
+.header .day-mode {
+  background-color: black;
+  color: white;
+}
+
 .header nav {
   position: fixed;
 }
 
 .header hr {
-  position:absolute;
+  position: absolute;
   width: 2px;
   height: 5px;
   color: white;
@@ -124,6 +144,12 @@
 body {
   background-image: url("../img/background-repeat.jpg");
   font-family: monospace;
+}
+
+body.night-mode {
+  background-image: none;
+  background-color: white;
+  text-shadow: 2px 3px black;
 }
 
 hr {
