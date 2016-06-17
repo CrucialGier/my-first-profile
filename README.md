@@ -8,16 +8,16 @@
 
 #### _Set Up_
 
-* _Download all files from the repository at https://github.com/CrucialGier/my-first-profile_
-* _Or visit the gh-pages link at https://CrucialGier.github.io/my-first-profile_
+* _Download all files from the repository at_ https://github.com/CrucialGier/my-first-profile
+* _Or visit the gh-pages link at_ https://CrucialGier.github.io/my-first-profile
 
 #### _Known Bugs_
 
-* _The third segment breaker is off center to the right and i dont know how to center it. It does't obay my commands O.O_
+* _The third segment breaker is off center to the right and i dont know how to center it._
 
 #### _Support and Contacts_
 
-* _I belive you guys have my email_
+* _Email me at coleste001@gmail.com, linked at the bottom of the page._
 
 #### _Created with html and css using Atom_
 

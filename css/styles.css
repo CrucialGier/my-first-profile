@@ -130,6 +130,7 @@
 
 .footer .copy {
   margin-top: 15px;
+  color: white;
 }
 
 .footer a {
@@ -137,6 +138,7 @@
   text-shadow: none;
   font-size: 20px;
 }
+
 
 
 /* Extras */
@@ -161,8 +163,8 @@ hr {
 }
 
 #complicated, em {
-  color: yellow;
-  text-shadow: 2px 3px black;
+  color: white;
+  text-shadow: 2px 2px black;
 }
 
 a em:hover {
